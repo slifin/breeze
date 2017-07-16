@@ -18,6 +18,8 @@ Code less, low cyclomatic complexity, [PHP7](http://php.net/) framework.
 
 Breeze is a series of alternative constructs for your code to decrease [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity). 
 
+Cyclomatic complexity is often used as a software measurement by tools like [PHPMD](https://phpmd.org/), Scruitinzer and other code review tools.
+
 To decrease cyclomatic complexity avoid nameless conditionals/functions and code blocks,
 Since these are the foundations of modern code, this document contains context dependent alternatives.
 
