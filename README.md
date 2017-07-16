@@ -33,6 +33,7 @@ The if statement is a short hand [language construct](https://en.wikipedia.org/w
   * A code block that is nameless and imports the parent scope
   
 ### Setting Defaults
+😕 - One code block, one condition 
 ```php
 if (isset($myVariable)) {
   $myVariable = 5;
@@ -53,3 +54,5 @@ $myVariable = $myVariable ?? 5;
 ```php
 foreach () {}
 ```
+
+TODO look up - https://github.com/phpmetrics/PhpMetrics
