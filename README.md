@@ -27,7 +27,7 @@ if () {}
 ```
 The if statement is a short hand [language construct](https://en.wikipedia.org/wiki/Language_construct), it is comprised of:
   * A conditional that can be nameless
-  * A code block that is nameless and imports all parent scope
+  * A code block that is nameless and imports the parent scope
   
 ### Setting Defaults
 
