@@ -4,8 +4,8 @@ Code less, low cyclomatic complexity, [PHP](http://php.net/) framework.
 ## Table of Contents
 * [About](#about)
 * [If Statement](#if)
-  * Setting defaults
-  * Variable set to one or the other based on condition
+  * [Setting defaults](#setting defaults)
+  * Set variable based on condition
   * Run a code block based on condition
   * Run a code block based on condition with return
 * [Foreach Statement](#foreach)
@@ -33,7 +33,20 @@ The if statement is a short hand [language construct](https://en.wikipedia.org/w
   * A code block that is nameless and imports the parent scope
   
 ### Setting Defaults
+```php
+if (isset($myVariable)) {
+  $myVariable = 5;
+}
+```
 
+```php
+$issetMyVariable = isset($myVariable);
+$defaultMyVariable = 5;
+$myVariable = $issetMyVariable ? $myVariable : $defaultMyVariable; 
+```
+```php
+$myVariable = $myVariable ?? 5;
+```
 ## Foreach
 ```php
 foreach () {}
