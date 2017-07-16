@@ -47,6 +47,8 @@ $myVariable = $issetMyVariable ? $myVariable : $defaultMyVariable;
 ```php
 $myVariable = $myVariable ?? 5;
 ```
+
+### Set Variable Based on Condition
 ## Foreach
 ```php
 foreach () {}
