@@ -8,7 +8,7 @@ Code less, low cyclomatic complexity, PHP framework.
   * [foreach statement](#foreach)
 
 ## Concept
-
+Breeze is a series of alternative constructs for your code to decrease [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity).
 
 ## if
 ```php
