@@ -2,7 +2,7 @@
 Code less, low cyclomatic complexity, [PHP7](http://php.net/) framework.
 
 ## Table of Contents
-* [Concept](#Concept)
+* [About](#about)
 * [If Statement](#if)
   * Setting defaults
   * Variable set to one or the other based on condition
@@ -14,7 +14,7 @@ Code less, low cyclomatic complexity, [PHP7](http://php.net/) framework.
   * Change elements in a data structure 
   * Collect a new thing from all elements in a data structure
 
-## Concept
+## About
 
 Breeze is a series of alternative constructs for your code to decrease [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity). 
 
