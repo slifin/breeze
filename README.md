@@ -39,16 +39,16 @@ if (isset($myVariable)) {
   $myVariable = 5;
 }
 ```
-😇 - Explicit variable names, transaction in transparent to a debugger observing symbols table
+😇 - Explicit variable names, transform is transparent to a debugger observing symbols table
 ```php
 $issetMyVariable = isset($myVariable);
 $defaultMyVariable = 5;
 $myVariable = $issetMyVariable ? $myVariable : $defaultMyVariable; 
 ```
 
-😇 -
+😇 - DOUBLE CHECK ORDER OF OPERATIONS HERE
 ```php
-$myVariable = $myVariable ?? 5;
+$myVariable = $myVariable ?? $defaultMyVariable = 5;
 ```
 
 ### Set Variable Based on Condition
