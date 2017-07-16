@@ -2,7 +2,7 @@
 Code less, low cyclomatic complexity, PHP framework.
 
 ## Table of Contents
-* Concept
+* [Concept](#Concept)
 * [If Statement](#if)
   * Setting defaults
   * Variable set to one or the other based on condition
