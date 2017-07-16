@@ -4,7 +4,7 @@ Code less, low cyclomatic complexity, [PHP](http://php.net/) framework.
 ## Table of Contents
 * [About](#about)
 * [If Statement](#if)
-  * [Setting defaults](#setting defaults)
+  * [Setting defaults](#setting-defaults)
   * Set variable based on condition
   * Run a code block based on condition
   * Run a code block based on condition with return
