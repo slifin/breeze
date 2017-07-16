@@ -9,6 +9,10 @@ Code less, low cyclomatic complexity, PHP framework.
   * Run a code block based on condition
   * Run a code block based on condition with return
 * [Foreach Statement](#foreach)
+  * Iterate a data structure
+  * Remove elements in a data structure
+  * Change elements in a data structure 
+  * Collect a new thing from all elements in a data structure
 
 ## Concept
 
