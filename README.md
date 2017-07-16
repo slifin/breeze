@@ -1,5 +1,5 @@
 # 🍃 Breeze
-Code less, low cyclomatic complexity, [PHP7](http://php.net/) framework.
+Code less, low cyclomatic complexity, [PHP](http://php.net/) framework.
 
 ## Table of Contents
 * [About](#about)
