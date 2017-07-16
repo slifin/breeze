@@ -20,7 +20,7 @@ Breeze is a series of alternative constructs for your code to decrease [cyclomat
 
 #### 🔬 Code Review
 
-📐 Cyclomatic complexity is often used as a software measurement by [PHPMD](https://phpmd.org/), [Scruitinzer](scrutinizer-ci.com) and other code review tools.
+Cyclomatic complexity is often used as a software measurement by [PHPMD](https://phpmd.org/), [Scruitinzer](scrutinizer-ci.com) and other code review tools.
 
 To decrease cyclomatic complexity avoid nameless conditionals/functions and code blocks,
 Since these are the foundations of modern code, Breeze contains context dependent alternatives.
