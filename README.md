@@ -1,2 +1,6 @@
-# breeze
-Code less, low cyclomatic complexity, web framework.
+# 🍃 Breeze
+*Code less, low cyclomatic complexity, PHP framework.*
+
+---
+
+## Table of Contents
