@@ -21,15 +21,17 @@ Breeze is a series of alternative constructs for your code to decrease [cyclomat
 To decrease cyclomatic complexity avoid nameless conditionals/functions and code blocks,
 Since these are the foundations of modern code, this document contains context dependent alternatives.
 
-## if
+## If
 ```php
 if () {}
 ```
 The if statement is a short hand [language construct](https://en.wikipedia.org/wiki/Language_construct), it is comprised of:
   * A conditional that can be nameless
   * A code block that is nameless and imports all parent scope
+  
+### Setting Defaults
 
-## foreach
+## Foreach
 ```php
 foreach () {}
 ```
