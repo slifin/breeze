@@ -57,4 +57,4 @@ $myVariable = $myVariable ?? $defaultMyVariable = 5;
 foreach () {}
 ```
 
-TODO look up - https://github.com/phpmetrics/PhpMetrics need to work out cyclomatic complexity for each snippet
+see http://ars.altervista.org/lint_php/lint_php.php for measurements
