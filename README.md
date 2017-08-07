@@ -16,7 +16,13 @@ naming things and actions within code.
 
 
 ## Including Names
+    if ($person['age'] > 18) {
+    }
 
+
+    $uk_drinking_age = $person['age'] > 18;
+    if ($uk_drinking_age) {
+    }
 ## array_filter
 
 ## array_map
