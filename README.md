@@ -10,6 +10,7 @@ Code less [PHP](http://php.net/) framework.
   * [Changing array elements](#array_map)
   * [Creating a new thing from an array](#array_reduce)
   * [Iterating with side effects](#array_walk)
+  * [Function reuse](#function_reuse)
 
 ## About
 
