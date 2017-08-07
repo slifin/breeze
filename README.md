@@ -4,10 +4,11 @@ Code less [PHP](http://php.net/) framework.
 ## Table of Contents
 * [About](#about)
 * [Creating a story in code](#name_things)
-* [Filtering](#array_filter)
-* [Changing array elements](#array_map)
-* [Creating a new thing from an array](#array_reduce)
-* [Iterating with side effects](#array_walk)
+* [How to use array_*](#how_to_use_array_*)
+  * [Filtering](#array_filter)
+  * [Changing array elements](#array_map)
+  * [Creating a new thing from an array](#array_reduce)
+  * [Iterating with side effects](#array_walk)
 
 ## About
 
