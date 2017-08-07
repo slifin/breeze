@@ -4,8 +4,9 @@ Code less [PHP](http://php.net/) framework.
 ## Table of Contents
 * [About](#about)
 * [Grow a story in code](#name_things)
-* [How to use array_*](#how_to_use_array_*)
-  * [Why use functions?](#why_use_functions_to_loop)
+* [Array functions](#array functions)
+  * [Why use array functions for looping](#Why_use_array_functions_for_looping)
+  * [How to use array functions for looping](#why_use_functions_to_loop)
   * [Filtering](#array_filter)
   * [Changing array elements](#array_map)
   * [Creating a new thing from an array](#array_reduce)
@@ -37,9 +38,11 @@ if ($uk_drinking_age) {
  
 This provides additional context to your code to others when your code grows.
 
-#How to use array_*
+# array functions
 
-## Why use functions to loop?
+## How to use array functions for looping
+
+## Why use array functions for looping
 
 ## array_filter
 
