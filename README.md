@@ -17,8 +17,7 @@ naming things and actions within code.
 
 ## Name things
 
-We subltly avoid naming things by doing certain things in code
-Avoid creating something and operating on it immediately.
+Create a habit of when creating something, do not operate on the result immediately:
 
 For example instead of this:
 
