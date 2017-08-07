@@ -6,7 +6,6 @@ Code less [PHP](http://php.net/) framework.
 * [Grow a story in code](#name_things)
 * [Array functions](#array_functions)
   * [Why use array functions for looping](#Why_use_array_functions_for_looping)
-  * [How to use array functions for looping](#why_use_functions_to_loop)
   * [Filtering](#array_filter)
   * [Changing array elements](#array_map)
   * [Creating a new thing from an array](#array_reduce)
@@ -39,8 +38,6 @@ if ($uk_drinking_age) {
 This provides additional context to your code to others when your code grows.
 
 # array functions
-
-## How to use array functions for looping
 
 ## Why use array functions for looping
 
