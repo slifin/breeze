@@ -1,4 +1,4 @@
-# 🌁  Breeze
+# 🍃 Breeze 
 Code less [PHP](http://php.net/) framework.
 
 ## Table of Contents
