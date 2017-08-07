@@ -22,8 +22,10 @@ Create a habit of when creating something, do not operate on the result immediat
 For example instead of this:
 
     
-    ```php if ($person['age'] > 18) {
-    }
+```php
+if ($person['age'] > 18) {
+}
+```
 
 Prefer this:
 
