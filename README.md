@@ -37,6 +37,7 @@ if ($uk_drinking_age) {
  
 This provides additional context to your code to others when your code grows.
 
+#How to use array_*
 
 ## Why use functions to loop?
 
