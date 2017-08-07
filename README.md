@@ -36,7 +36,7 @@ if ($uk_drinking_age) {
 }
  ```
  
-This provides additional context to your code that might not be apparant to other readers or when you forget.
+This provides additional context to your code to others when your code grows.
 
 
 ## Why use functions to loop?
