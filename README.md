@@ -5,6 +5,7 @@ Code less [PHP](http://php.net/) framework.
 * [About](#about)
 * [Creating a story in code](#name_things)
 * [How to use array_*](#how_to_use_array_*)
+  * [Why use functions?](#why_use_functions_to_loop)
   * [Filtering](#array_filter)
   * [Changing array elements](#array_map)
   * [Creating a new thing from an array](#array_reduce)
@@ -35,6 +36,10 @@ if ($uk_drinking_age) {
  ```
  
 This provides additional context to your code that might not be apparant to other readers or when you forget.
+
+
+## Why use functions to loop?
+
 ## array_filter
 
 ## array_map
