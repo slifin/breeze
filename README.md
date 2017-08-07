@@ -11,8 +11,7 @@ Code less [PHP](http://php.net/) framework.
 
 ## About
 
-Breeze is a framework aimed at PHP developers to encourage a style of code that creates good habits around 
-naming things and actions within code.
+Breeze is a framework aimed at PHP developers to encourage a style of code that helps signal intent.
 
 
 ## Name things
