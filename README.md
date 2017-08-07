@@ -16,10 +16,14 @@ naming things and actions within code.
 
 
 ## Including Names
+
+Avoid creating something and operating on it immediately.
+
+For example instead of this:
     if ($person['age'] > 18) {
     }
 
-
+Prefer this:
     $uk_drinking_age = $person['age'] > 18;
     if ($uk_drinking_age) {
     }
