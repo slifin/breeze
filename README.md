@@ -30,7 +30,7 @@ Prefer this:
 ```php
 $uk_drinking_age = $person['age'] > 18;
 if ($uk_drinking_age) {
- }
+}
  ```
 ## array_filter
 
