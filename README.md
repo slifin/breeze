@@ -14,7 +14,7 @@ Code less [PHP](http://php.net/) framework.
 
 ## About
 
-Breeze is a framework aimed at PHP developers to encourage a style of code that helps signal intent of code.
+Seed is a framework aimed at PHP developers to encourage a style of code that helps signal intent of code.
 
 
 ## Name things
