@@ -32,6 +32,8 @@ $uk_drinking_age = $person['age'] > 18;
 if ($uk_drinking_age) {
 }
  ```
+ 
+This provides additional context to your code that might not be apparant to other readers or when you forget.
 ## array_filter
 
 ## array_map
