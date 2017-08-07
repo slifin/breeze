@@ -10,7 +10,8 @@ Code less [PHP](http://php.net/) framework.
 * [Iterating with side effects](#array_walk)
 
 ## About
-Breeze is a series of code suggestions array_* functions 
+Breeze is a framework aimed at PHP developers to encourage a style of code that creates good habits around 
+naming things and actions within code.
 
 
 ## Including Names
