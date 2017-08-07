@@ -19,7 +19,7 @@ Breeze is a framework aimed at PHP developers to encourage a style of code that 
 
 ## Name things
 
-Create a habit of when creating something avoid operating on the result immediately:
+Create a habit of naming things by not operating on anything without a name:
 
 For example instead of this:
 
