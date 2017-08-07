@@ -16,7 +16,7 @@ Code less [PHP](http://php.net/) framework.
 
 Seed is a framework aimed at PHP developers to encourage a style of code that helps signal intent of code.
 
-## Name things
+## Name Things
 
 Create a habit of naming things by not operating on anything without a name:
 
@@ -37,7 +37,7 @@ if ($uk_drinking_age) {
  
 This provides additional context to your code to others when your code grows.
 
-## array functions
+## Array Functions
 
 ### Why use array functions for looping
 
