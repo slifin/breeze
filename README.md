@@ -17,7 +17,7 @@ naming things and actions within code.
 
 ## Name things
 
-Create a habit of when creating something, do not operate on the result immediately:
+Create a habit of when creating something avoid operating on the result immediately:
 
 For example instead of this:
 
