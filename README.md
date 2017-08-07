@@ -37,15 +37,15 @@ if ($uk_drinking_age) {
  
 This provides additional context to your code to others when your code grows.
 
-# array functions
+## array functions
 
-## Why use array functions for looping
+### Why use array functions for looping
 
-## array_filter
+### array_filter
 
-## array_map
+### array_map
 
-## array_reduce
+### array_reduce
 
-## array_walk
+### array_walk
 
