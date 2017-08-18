@@ -66,6 +66,15 @@ $array = array_reduce($array, function () {
 ```
 ### Perform side effect from a loop
 [array_walk](http://php.net/manual/en/function.array-walk.php)`();`
-
+```php
+array_walk($array, function () {
+  return 
+});
+```
 ### Sort an array
 [usort](http://php.net/manual/en/function.usort.php)`();`
+```php
+usort($array, function () {
+  return 
+});
+```
