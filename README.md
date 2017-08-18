@@ -59,7 +59,11 @@ $array = array_map(function () {
 ```
 ### Creating a new thing from a loop
 [array_reduce](http://php.net/manual/en/function.array-reduce.php)`();`
-
+```php
+$array = array_reduce($array, function () {
+  return 
+}, $intial);
+```
 ### Perform side effect from a loop
 [array_walk](http://php.net/manual/en/function.array-walk.php)`();`
 
