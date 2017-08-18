@@ -45,7 +45,9 @@ This provides additional context to your code to others when your code grows.
 [array_filter](http://php.net/manual/en/function.array-filter.php)`();`
 
 ```php
-$test
+$array = array_filter($array, function () {
+  return 
+});
 ```
 
 ### Changing array elements
