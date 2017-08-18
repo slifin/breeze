@@ -45,7 +45,7 @@ This provides additional context to your code to others when your code grows.
 
 ### Filtering things
 ```php
-array_filter
+array_filter();
 ```
 
 ### array_map
