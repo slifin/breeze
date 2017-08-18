@@ -39,7 +39,7 @@ This provides additional context to your code to others when your code grows.
 
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
-## Looping
+## Loop with functions
 
 ### Filtering
 ```php
