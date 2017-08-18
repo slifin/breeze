@@ -3,7 +3,7 @@ Code less [PHP](http://php.net/) framework.
 
 ## Table of Contents
 * [About](#about)
-* [Grow a story in code](#name_things)
+* [Tell a story in code](#name_things)
 * [Array functions](#array_functions)
   * [Why use array functions for looping](#Why_use_array_functions_for_looping)
   * [Filtering](#array_filter)
