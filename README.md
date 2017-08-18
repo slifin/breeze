@@ -43,7 +43,10 @@ This provides additional context to your code to others when your code grows.
 
 ### Why use array functions for looping
 
-### array_filter
+### Filtering things
+```php
+array_filter
+```
 
 ### array_map
 
