@@ -42,10 +42,8 @@ This provides additional context to your code to others when your code grows.
 ## Loop with functions
 
 ### Filtering
-[array_filter](http://php.net/manual/en/function.array-filter.php)
-```php
-();
-```
+[array_filter](http://php.net/manual/en/function.array-filter.php)`();`
+
 
 ### Changing array elements
 ```php
