@@ -43,7 +43,8 @@ This provides additional context to your code to others when your code grows.
 
 ### Filtering
 ```php
-[array_filter](http://php.net/manual/en/function.array-filter.php)();
+[array_filter](http://php.net/manual/en/function.array-filter.php)
+();
 ```
 
 ### Changing array elements
