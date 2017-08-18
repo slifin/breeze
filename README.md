@@ -37,6 +37,8 @@ if ($uk_drinking_age) {
  
 This provides additional context to your code to others when your code grows.
 
+*A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
+
 ## Array Functions
 
 ### Why use array functions for looping
