@@ -52,7 +52,11 @@ $array = array_filter($array, function () {
 
 ### Changing array elements
 [array_map](http://php.net/manual/en/function.array-map.php)`();`
-
+```php
+$array = array_map(function () {
+  return 
+}, $array);
+```
 ### Creating a new thing from a loop
 [array_reduce](http://php.net/manual/en/function.array-reduce.php)`();`
 
