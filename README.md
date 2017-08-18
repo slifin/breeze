@@ -41,14 +41,24 @@ This provides additional context to your code to others when your code grows.
 
 ## Looping
 
-### Filtering things
+### Filtering
 ```php
 array_filter();
 ```
 
-### array_map
-
-### array_reduce
-
-### array_walk
-
+### Changing array elements
+```php
+array_map();
+```
+### Creating a new thing from a loop
+```php
+array_reduce();
+```
+### Perform side effect from a loop
+```php
+array_walk();
+```
+### Sort an array
+```php
+usort();
+```
