@@ -46,18 +46,13 @@ This provides additional context to your code to others when your code grows.
 
 
 ### Changing array elements
-```php
-array_map();
-```
+[array_map](http://php.net/manual/en/function.array-map.php)`();`
+
 ### Creating a new thing from a loop
-```php
-array_reduce();
-```
+[array_reduce](http://php.net/manual/en/function.array-reduce.php)`();`
+
 ### Perform side effect from a loop
-```php
-array_walk();
-```
+[array_walk](http://php.net/manual/en/function.array-walk.php)`();`
+
 ### Sort an array
-```php
-usort();
-```
+[usort](http://php.net/manual/en/function.usort.php)`();`
