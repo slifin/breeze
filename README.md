@@ -40,7 +40,7 @@ if ($uk_drinking_age) {
 }
  ```
  
-This allows you to show what your code is -supposed- to be doing.
+This allows you to show what your code is _supposed_ to be doing.
 
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
