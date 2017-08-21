@@ -1,5 +1,5 @@
 # 🌱 Seed 
-Code less [PHP](http://php.net/) framework.
+Habit based [PHP](http://php.net/) framework.
 
 ## Table of Contents
 * [About](#about)
@@ -41,7 +41,7 @@ This provides additional context to your code to others when your code grows.
 
 TODO provide PHPCS lint for this: https://pear.php.net/manual/en/package.php.php-codesniffer.coding-standard-tutorial.php
 ## Loop with functions
-
+Loops are anonymous functions on 
 ### Filtering
 [array_filter](http://php.net/manual/en/function.array-filter.php)`();`
 
