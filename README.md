@@ -1,4 +1,5 @@
-# 🌱 Seed 
+#  Seed 
+<font size="7">🌱</font>
 Habit based [PHP](http://php.net/) framework.
 
 ## Table of Contents
