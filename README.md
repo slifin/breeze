@@ -27,13 +27,13 @@ if ($person['age'] > 18) {
 }
 ```
 
-Prefer this:
-
 ```diff
 - if ($person['age'] > 18) {
 + $uk_drinking_age = $person['age'] > 18;
 + if ($uk_drinking_age) {
 ```
+
+Prefer this:
 ```php
 $uk_drinking_age = $person['age'] > 18;
 if ($uk_drinking_age) {
