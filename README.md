@@ -18,7 +18,7 @@ Seed is a habit based framework that encourages the communication of code intent
 
 ## Name Things
 
-Create a habit of naming things by not operating on anything without a name:
+Create a habit of naming things even when the language allows you to be silent:
 
 For example instead of this:
 
@@ -35,7 +35,7 @@ if ($uk_drinking_age) {
 }
  ```
  
-This provides additional context to your code to others when your code grows.
+The name provides additional context to your code.
 
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
