@@ -14,7 +14,7 @@ Code less [PHP](http://php.net/) framework.
 
 ## About
 
-Seed is a framework to encourage a style of code that helps communicate intent of code.
+Seed is a habit based framework that encourages the communication of code intent.
 
 ## Name Things
 
