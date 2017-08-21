@@ -5,7 +5,7 @@ Communication based [PHP](http://php.net/) framework.
 
 ## Table of Contents
 * [About](#about)
-* [Send the Message](#send_the_message)
+* [Writing code intent](#send_the_message)
 * [Array functions](#array_functions)
   * [Why use array functions for looping](#Why_use_array_functions_for_looping)
   * [Filtering](#array_filter)
