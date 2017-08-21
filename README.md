@@ -43,6 +43,10 @@ if ($uk_drinking_age) {
 This allows you to show what your code is _supposed_ to be doing, don't force other programmers to guess 
 what your code should be doing based on implementation details.
 
+Communication silence is incedious, here are some more examples:
+
+
+
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
 TODO provide PHPCS lint for this: https://pear.php.net/manual/en/package.php.php-codesniffer.coding-standard-tutorial.php
