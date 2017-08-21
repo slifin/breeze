@@ -1,7 +1,7 @@
 # 🌌 Signal
 
 
-Habit based [PHP](http://php.net/) framework.
+Communication based [PHP](http://php.net/) framework.
 
 ## Table of Contents
 * [About](#about)
@@ -16,7 +16,7 @@ Habit based [PHP](http://php.net/) framework.
 
 ## About
 
-Signal is a habit based framework that encourages the communication of code intent.
+Signal is a communication based framework that encourages the communication of code intent.
 
 ## Name Things
 
@@ -25,19 +25,19 @@ Create a habit of naming things even when the language allows you to be silent:
 For example instead of this:
 
 ```php
-if ($person['age'] > 18) {
+if ($object['km/s'] > 552) {
 }
 ```
 
 Prefer this:
 ```diff
-- if ($person['age'] > 18) {
-+ $uk_drinking_age = $person['age'] > 18;
-+ if ($uk_drinking_age) {
+- if ($object['km/s'] > 552) {
++ $is_faster_than_milkyway = $object['km/s'] > 552;
++ if ($is_faster_than_milkyway) {
 ```
 ```php
-$uk_drinking_age = $person['age'] > 18;
-if ($uk_drinking_age) {
+$is_faster_than_milkyway = $object['km/s'] > 552;
+if ($is_faster_than_milkyway) {
 }
  ```
  
