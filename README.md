@@ -1,5 +1,6 @@
-#  Seed 
-<font size="7">🌱</font>
+# 🐤 Chirp
+
+
 Habit based [PHP](http://php.net/) framework.
 
 ## Table of Contents
@@ -15,7 +16,7 @@ Habit based [PHP](http://php.net/) framework.
 
 ## About
 
-Seed is a habit based framework that encourages the communication of code intent.
+Chirp is a habit based framework that encourages the communication of code intent.
 
 ## Name Things
 
