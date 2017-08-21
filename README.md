@@ -1,6 +1,4 @@
-# 🐤 Chirp
-
-# 🐘 Recall
+# 🌌 Signal
 
 
 Habit based [PHP](http://php.net/) framework.
@@ -18,7 +16,7 @@ Habit based [PHP](http://php.net/) framework.
 
 ## About
 
-Chirp is a habit based framework that encourages the communication of code intent.
+Signal is a habit based framework that encourages the communication of code intent.
 
 ## Name Things
 
