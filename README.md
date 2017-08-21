@@ -39,6 +39,8 @@ This provides additional context to your code to others when your code grows.
 
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
+TODO provide PHPCS lint for this: https://ncona.com/2012/12/creating-your-own-phpcs-standard/
+
 ## Loop with functions
 
 ### Filtering
