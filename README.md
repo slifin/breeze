@@ -47,7 +47,28 @@ what your code should be doing based on implementation details.
 Radio silence is insidious, here are some more examples:
 
 👩🏻‍🚀
+What does this code do?
+```php
+$data = [];
+foreach ($frequency as $mhz) {
+  if ($mhz > 100) {
+    $data[] = $mhz;
+  }
+}
+```
 
+```php
+$can_penetrate_the_ionosphere = function (int $mhz) : bool {
+  return $mhz > 100;
+};
+$data = [];
+foreach ($frequency as $mhz) {
+  if (can_penetrate_the_ionosphere($mhz)) {
+    $data[] = $mhz;
+  }
+}
+
+```
 
 
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
