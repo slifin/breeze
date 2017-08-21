@@ -44,7 +44,9 @@ if ($is_faster_than_milkyway) {
 This allows you to show what your code is _supposed_ to be doing, don't force other programmers to guess 
 what your code should be doing based on implementation details.
 
-Communication silence is incedious, here are some more examples:
+Communication silence is insidious, here are some more examples:
+
+👩🏻‍🚀
 
 
 
