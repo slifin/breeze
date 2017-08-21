@@ -40,7 +40,7 @@ if ($uk_drinking_age) {
 }
  ```
  
-The name provides additional context to your code.
+This allows you to show what your code is -supposed- to be doing.
 
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
