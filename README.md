@@ -5,7 +5,7 @@ Communication based [PHP](http://php.net/) framework.
 
 ## Table of Contents
 * [About](#about)
-* [Tell a story in code](#name_things)
+* [Send the Message](#send_the_message)
 * [Array functions](#array_functions)
   * [Why use array functions for looping](#Why_use_array_functions_for_looping)
   * [Filtering](#array_filter)
@@ -18,7 +18,7 @@ Communication based [PHP](http://php.net/) framework.
 
 Signal is a communication based framework that encourages the communication of code intent.
 
-## Name Things
+## Send the Message
 
 Create a habit of naming things even when the language allows you to be silent:
 
