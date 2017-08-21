@@ -21,7 +21,10 @@ Seed is a habit based framework that encourages the communication of code intent
 Create a habit of naming things even when the language allows you to be silent:
 
 For example instead of this:
-
+```diff
++ $uk_drinking_age = $person['age'] > 18;
+- this text is highlighted in red
+```
 ```php
 if ($person['age'] > 18) {
 }
