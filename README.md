@@ -20,14 +20,10 @@ Signal is a communication based framework that encourages the communication of c
 
 Create a habit of naming things even when the language allows you to be silent:
 
-For example instead of this:
-
 ```php
 if ($object['km/s'] > 552) {
 }
 ```
-
-Prefer this:
 ```diff
 - if ($object['km/s'] > 552) {
 + $is_faster_than_milkyway = $object['km/s'] > 552;
