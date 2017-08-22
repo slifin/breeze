@@ -6,13 +6,11 @@ Communication based [PHP](http://php.net/) framework.
 ## Table of Contents
 * [About](#about)
 * [Writing code intent](#send_the_message)
-* [Array functions](#array_functions)
-  * [Why use array functions for looping](#Why_use_array_functions_for_looping)
-  * [Filtering](#array_filter)
-  * [Changing array elements](#array_map)
-  * [Creating a new thing from an array](#array_reduce)
-  * [Iterating with side effects](#array_walk)
-  * [Function reuse](#function_reuse)
+* [Filtering](#array_filter)
+* [Changing array elements](#array_map)
+* [Creating a new thing from an array](#array_reduce)
+* [Iterating with side effects](#array_walk)
+
 
 ## About
 
