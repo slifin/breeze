@@ -40,38 +40,11 @@ if ($is_faster_than_milkyway) {
  ```
  
 This allows you to show what your code is _supposed_ to be doing, don't force other programmers to guess 
-what your code should be doing based on implementation details.
-
-Radio silence is insidious, here are some more examples:
-
-👩🏻‍🚀
-What does this code do?
-```php
-$data = [];
-foreach ($frequency as $mhz) {
-  if ($mhz > 100) {
-    $data[] = $mhz;
-  }
-}
-```
-
-```php
-$can_penetrate_the_ionosphere = function (int $mhz) : bool {
-  return $mhz > 100;
-};
-$data = [];
-foreach ($frequency as $mhz) {
-  if (can_penetrate_the_ionosphere($mhz)) {
-    $data[] = $mhz;
-  }
-}
-
-```
+what your code should be doing based on implementation details. [More examples](http://google.com)
 
 
-*A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
-TODO provide PHPCS lint for this: https://pear.php.net/manual/en/package.php.php-codesniffer.coding-standard-tutorial.php
+
 ## Loop with functions
 Loops are anonymous functions on 
 ### Filtering
@@ -111,3 +84,11 @@ usort($array, function () {
   return 
 });
 ```
+
+Notes:
+
+
+
+*A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
+
+TODO provide PHPCS lint for this: https://pear.php.net/manual/en/package.php.php-codesniffer.coding-standard-tutorial.php
