@@ -19,7 +19,7 @@ Signal is a communication based framework that encourages the communication of c
 
 ## Send the Message
 
-Create a habit of naming things that previously you may have left unnamed by using inline conditionals:
+Create a habit of naming things that previously you may have left unnamed:
 
 ```php
 if ($object['km/s'] > 552) {
