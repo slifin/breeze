@@ -63,7 +63,7 @@ When the ```!``` operator is used your brain first has to parse the result of ``
 
 ## Loop with functions
 Loops are anonymous functions on 
-### Filtering
+### Filtering array children
 [array_filter](http://php.net/manual/en/function.array-filter.php)`();`
 
 ```php
@@ -72,28 +72,28 @@ $array = array_filter($array, function () {
 });
 ```
 
-### Changing array elements
+### Changing array children
 [array_map](http://php.net/manual/en/function.array-map.php)`();`
 ```php
 $array = array_map(function () {
   return 
 }, $array);
 ```
-### Creating a new thing from a loop
+### Create a new thing from array children
 [array_reduce](http://php.net/manual/en/function.array-reduce.php)`();`
 ```php
 $array = array_reduce($array, function () {
   return 
 }, $intial);
 ```
-### Perform side effect from a loop
+### Perform side effect for each array child
 [array_walk](http://php.net/manual/en/function.array-walk.php)`();`
 ```php
 array_walk($array, function () {
   return 
 });
 ```
-### Sort an array
+### Sort array children
 [usort](http://php.net/manual/en/function.usort.php)`();`
 ```php
 usort($array, function () {
