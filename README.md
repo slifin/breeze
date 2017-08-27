@@ -13,7 +13,7 @@ Communication based [PHP](http://php.net/) framework.
 
 
 ## About
-Signal is a document to help developers increase context and meaning expressed through code.
+Signal is a document to help writers increase context and meaning expressed through code.
 
 
 ## Send the Message
