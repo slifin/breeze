@@ -1,6 +1,5 @@
 # 🌌 Signal
 
-
 Communication based [PHP](http://php.net/) framework.
 
 
