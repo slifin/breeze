@@ -50,12 +50,10 @@ if (!empty($meteors_on_collision_course)) {
 - if (!empty($meteors_on_collision_course)) {
 -    launch_missiles()
 -}
-+$no_meteors_on_collision_course = empty($meteors_on_collision_course);
-+$no_meteors_on_collision_course ?: launch_missiles();
++count($meteors_on_collision_course) && launch_missiles();
 ```
 ```php 
-$no_meteors_on_collision_course = empty($meteors_on_collision_course);
-$no_meteors_on_collision_course ?: launch_missiles();
+count($meteors_on_collision_course) && launch_missiles();
 ```
 
 When the ```!``` operator is used your brain first has to parse the result of ```$meteors_on_collision_course``` and then flip it with ```!```. Remove the two steps and talk about the event directly with variable names.
