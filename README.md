@@ -1,4 +1,5 @@
-# 🌌 Signal
+# <img alt="Icon of the milky way" width="26" height="26" src="https://rawgit.com/slifin/5bd4633c141f50f9d8c6118c179c9550/raw/83661a03839415ce5527ff2e171b7b7c90b3ee78/signal.svg" /> Signal
+
 
 Communication based [PHP](http://php.net/) framework.
 
