@@ -14,7 +14,9 @@ Communication based [PHP](http://php.net/) framework.
 
 ## About
 
-Signal is a communication based framework that encourages the communication of code intent through documentation.
+Signal is a collection of documents design to encourage code that expresses the problem space and code intent.
+
+The framework is influenced by functional programming for iteration but its most important aspects are based in message passing. 
 
 ## Send the Message
 
