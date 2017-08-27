@@ -39,7 +39,26 @@ if ($is_faster_than_milkyway) {
 This allows you to show what your code is _supposed_ to be doing, don't force other programmers to guess 
 what your code should be doing based on implementation details: [more examples](http://google.com).
 
+## Use the positive side of the equation
 
+```php 
+if (!empty($meteors_on_collision_course)) {
+    launch_missiles()
+}
+```
+```diff 
+- if (!empty($meteors_on_collision_course)) {
+-    launch_missiles()
+-}
++$no_meteors_on_collision_course = empty($meteors_on_collision_course);
++$no_meteors_on_collision_course ?: launch_missiles();
+```
+```php 
+$no_meteors_on_collision_course = empty($meteors_on_collision_course);
+$no_meteors_on_collision_course ?: launch_missiles();
+```
+
+When the ```!``` operator is used your brain first has to parse the result of ```$meteors_on_collision_course``` and then flip it with ```!```. Remove the two steps and talk about the event directly with variable names.
 
 
 ## Loop with functions
