@@ -56,7 +56,7 @@ if (!empty($meteors_on_collision_course)) {
 count($meteors_on_collision_course) && launch_missiles();
 ```
 
-First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly with variable names.
+First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly without additional comprehension steps.
 
 
 ## Loop with functions
