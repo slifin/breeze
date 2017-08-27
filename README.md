@@ -62,7 +62,7 @@ When the ```!``` operator is used your brain first has to parse the result of ``
 
 
 ## Loop with functions
-Loops are anonymous functions on 
+
 ### Filtering array children
 [array_filter](http://php.net/manual/en/function.array-filter.php)`();`
 
