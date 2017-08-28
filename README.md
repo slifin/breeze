@@ -6,11 +6,14 @@ Communication array for the [PHP](http://php.net/) language.
 
 ## Table of Contents
 * [About](#about)
-* [Writing code intent](#send_the_message)
-* [Filtering](#array_filter)
-* [Changing array elements](#array_map)
-* [Creating a new thing from an array](#array_reduce)
-* [Iterating with side effects](#array_walk)
+* Semantics
+  * [Leaving explainations](#send_the_message)
+  * [Writing for comprehension](#Use_the_positive_side_of_the_equation)
+* Iteration
+  * [Filtering](#array_filter)
+  * [Changing array elements](#array_map)
+  * [Creating a new thing from an array](#array_reduce)
+  * [Iterating with side effects](#array_walk)
 
 
 ## About
