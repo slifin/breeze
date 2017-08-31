@@ -126,3 +126,12 @@ Notes:
 *A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
 
 TODO provide PHPCS lint for this: https://pear.php.net/manual/en/package.php.php-codesniffer.coding-standard-tutorial.php
+
+<details>
+ <summary>Summary</summary>
+<p>
+'''js
+const x = 1
+''' (change to `)
+</p>
+</details>
