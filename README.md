@@ -73,10 +73,22 @@ First your brain has to parse the result of ```empty($meteors_on_collision_cours
 [array_filter](http://php.net/manual/en/function.array-filter.php)`();`
 
 ```php
-$array = array_filter($array, function () {
-  return 
+$earth_diameter = 7917.5;
+$smaller_than_earth_planets = array_filter($planets, function (array $planet) use ($earth_diameter) {
+  return $planet['size'] < $earth_diameter;
 });
 ```
+
+```php
+$earth_diameter = 7917.5;
+$smaller_than_earth_planets = [];
+foreach($planets as $planet) {
+  if ($planet['size'] < $earth_diameter) {
+    $smaller_than_earth_planets[] = $planet;
+  }
+}
+```
+
 
 ### Changing array children
 [array_map](http://php.net/manual/en/function.array-map.php)`();`
