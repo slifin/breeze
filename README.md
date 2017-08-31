@@ -135,3 +135,12 @@ const x = 1
 ''' (change to `)
 </p>
 </details>
+
+
+
+
+
+<figure>
+    <p><code>Life is good, said HTML5 to XHTML.</code></p>
+    <figcaption>In this code block, we see HTML5 speaking to XHTML.</figcaption>
+</figure>
