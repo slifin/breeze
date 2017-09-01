@@ -22,7 +22,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 ## Use every opportunity to describe what the code solves
 
-Provide context to your code operations by including variable names whenever possible
+Provide context to your if statements by including variable names whenever possible
 
 You might be skipping good opportunities for variable names by writing inline conditions like this 
 
