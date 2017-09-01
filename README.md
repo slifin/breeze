@@ -24,11 +24,12 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 Provide context to your code operations by including variable names whenever possible
 
-You maybe skipping good opportunities for variable names by writing inline conditions like this 
+You might be skipping good opportunities for variable names by writing inline conditions like this 
 
 ```
 if ($planet == 'blue') : 
 ```
+Try this
 ```php 
 $is_earth = $planet == 'blue';
 if ($is_earth) :
