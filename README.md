@@ -7,7 +7,7 @@ Communication array for the [PHP](http://php.net/) language.
 ## Table of Contents
 * [About](#about)
 * Semantics
-  * [Leaving explainations](#send_the_message)
+  * [Leaving explainations](#Context_by_variable_name)
   * [Writing for comprehension](#Use_the_positive_side_of_the_equation)
 * Iteration
   * [Filtering](#array_filter)
@@ -20,7 +20,7 @@ Communication array for the [PHP](http://php.net/) language.
 Signal is a document to help writers increase context and meaning expressed through code.
 
 
-## Send the Message
+## Context by variable name
 
 Provide context to your code operations by including variable names whenever possible
 
