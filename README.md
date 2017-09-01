@@ -24,8 +24,13 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 Provide context to your code operations by including variable names whenever possible
 
-Focus on writing code that describes *why* it is performing its operations by using function names
-that describe the purpose of the code
+You maybe skipping opportunities for variable names by writing inline conditions like this 
+
+```php
+if ($planet == 'blue') 
+```
+
+
 
 
   <details>
@@ -146,7 +151,8 @@ const x = 1
 </details>
 
 
-
+Focus on writing code that describes *why* it is performing its operations by using function names
+that describe the purpose of the code
 
 
 <figure>
