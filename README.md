@@ -32,7 +32,7 @@ what your code should be doing based on implementation details.
 
 
   <details>
- <summary>Code examples</summary>
+ <summary>Click here for examples</summary>
 <p>
  
 ```php
@@ -59,7 +59,7 @@ if ($is_faster_than_milkyway) {
 First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly without additional comprehension steps.
 
 <details>
- <summary><a>Code examples</a></summary>
+ <summary>Click here for examples</summary>
 <p>
 
 ```php 
