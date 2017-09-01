@@ -49,6 +49,9 @@ what your code should be doing based on implementation details.
 
 ## Use the positive side of the equation
 
+
+First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly without additional comprehension steps.
+
 <details>
  <summary>Code examples</summary>
 <p>
@@ -69,9 +72,6 @@ count($meteors_on_collision_course) && launch_missiles();
 ```
 </p>
 </details>
-
-First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly without additional comprehension steps.
-
 
 ## Loop with functions
 
