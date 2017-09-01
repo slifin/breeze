@@ -22,13 +22,10 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 ## Send the Message
 
-Create a habit of naming things that previously you may have left unnamed:
+Provide context to your code operations by including variable names whenever possible
 
-
-
- 
-This allows you to show what your code is _supposed_ to be doing, don't force other programmers to guess 
-what your code should be doing based on implementation details. 
+Focus on writing code that describes *why* it is performing its operations by using function names
+that describe the purpose of the code
 
 
   <details>
