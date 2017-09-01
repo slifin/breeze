@@ -32,7 +32,7 @@ what your code should be doing based on implementation details.
 
 
   <details>
- <summary><a>Code examples</a></summary>
+ <summary>Code examples</summary>
 <p>
  
 ```php
