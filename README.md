@@ -24,6 +24,10 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 Create a habit of naming things that previously you may have left unnamed:
 
+
+<details>
+ <summary>Code examples</summary>
+<p>
 ```php
 if ($object['km/s'] > 552) {
 }
@@ -38,6 +42,9 @@ $is_faster_than_milkyway = $object['km/s'] > 552;
 if ($is_faster_than_milkyway) {
 }
  ```
+</p>
+</details>
+
  
 This allows you to show what your code is _supposed_ to be doing, don't force other programmers to guess 
 what your code should be doing based on implementation details. 
