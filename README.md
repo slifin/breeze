@@ -20,11 +20,11 @@ Communication array for the [PHP](http://php.net/) language.
 Signal is a document to help writers increase context and meaning expressed through code.
 
 
-## Context by variable name
+## Use every opportunity to describe the thing the code solves
 
 Provide context to your code operations by including variable names whenever possible
 
-You maybe skipping opportunities for variable names by writing inline conditions like this 
+You maybe skipping good opportunities for variable names by writing inline conditions like this 
 
 ```php
 if ($planet == 'blue') 
