@@ -26,9 +26,14 @@ Provide context to your code operations by including variable names whenever pos
 
 You maybe skipping good opportunities for variable names by writing inline conditions like this 
 
-```php
-if ($planet == 'blue') 
 ```
+if ($planet == 'blue') : 
+```
+```php 
+$is_earth = $planet == 'blue';
+if ($is_earth) :
+```
+
  <details>
  <summary>Click here for examples</summary>
 <p>
