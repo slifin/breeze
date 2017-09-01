@@ -49,6 +49,10 @@ what your code should be doing based on implementation details.
 
 ## Use the positive side of the equation
 
+<details>
+ <summary>Code examples</summary>
+<p>
+
 ```php 
 if (!empty($meteors_on_collision_course)) {
     launch_missiles()
@@ -63,6 +67,8 @@ if (!empty($meteors_on_collision_course)) {
 ```php 
 count($meteors_on_collision_course) && launch_missiles();
 ```
+</p>
+</details>
 
 First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly without additional comprehension steps.
 
