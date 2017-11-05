@@ -70,7 +70,9 @@ if ($object['km/s'] > 552) {
 ```
 ```php
 $is_faster_than_milkyway = $object['km/s'] > 552;
-$is_faster_than_milkyway && $engine_speed = slow_engines($engine_speed);
+$is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
+  return --$engine_speed;
+})($engine_speed);
  ```
 </p>
 </details>
