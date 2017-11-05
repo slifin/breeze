@@ -26,7 +26,7 @@ Provide context to your if statements by including variable names whenever possi
 
 You might be skipping good opportunities for variable names by writing inline conditions inside your if statement
 
- <details>
+<details>
  <summary>Click here for examples</summary>
 <p>
  
@@ -46,6 +46,38 @@ if ($is_faster_than_milkyway) {
  ```
 </p>
 </details>
+
+## Stop deep nesting
+
+If statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
+local (unreusable), unopinionated about what it imports from the outer scope and type unsafe.
+
+What could we do differently to prevent the alluring effects of nesting via the natural feeling if statement?
+
+<details>
+ <summary>Click here to see code</summary>
+<p>
+ 
+```php
+if ($object['km/s'] > 552) {
+ --$engine_speed;
+}
+```
+```diff
+- if ($object['km/s'] > 552) {
++ $is_faster_than_milkyway = $object['km/s'] > 552;
++ if ($is_faster_than_milkyway) {
+```
+```php
+$is_faster_than_milkyway = $object['km/s'] > 552;
+$is_faster_than_milkyway && $engine_speed = slow_engines($engine_speed);
+ ```
+</p>
+</details>
+
+
+## Prevent maintainers from nesting in your code
+
 
 
 ## Use the positive side of the equation
