@@ -47,12 +47,14 @@ if ($is_faster_than_milkyway) {
 </p>
 </details>
 
-## Stop deep nesting
+## Prevent code nesting
 
 If statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
 local (unreusable), unopinionated about what it imports from the outer scope and type unsafe.
 
-What could we do differently to prevent the alluring effects of nesting via the natural feeling if statement?
+When we construct our programs in this way we encourage nesting within our scope, particularly when your code is being modified at a later date, it's tempting to modify the code at the nesting point rather than creating a new named operation.
+
+What could we do differently to nesting via the if statement?
 
 <details>
  <summary>Click here to see code</summary>
