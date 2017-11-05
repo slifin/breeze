@@ -22,7 +22,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 ## Use every opportunity to describe what the code solves
 
-Provide context to your if statements by including variable names whenever possible
+Provide context to your ```if``` statements by including variable names whenever possible
 
 You might be skipping good opportunities for variable names by writing inline conditions inside your if statement
 
@@ -49,7 +49,7 @@ if ($is_faster_than_milkyway) {
 
 ## Prevent code nesting
 
-If statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
+```if``` statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
 local (unreusable), unopinionated about what it imports from the outer scope and type unsafe.
 
 When we construct our programs in this way we encourage nesting within our scope, particularly when your code is being modified at a later date, it's tempting to modify the code at the nesting point rather than creating a new named operation.
