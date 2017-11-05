@@ -47,7 +47,7 @@ if ($is_faster_than_milkyway) {
 </p>
 </details>
 
-## Prevent code nesting
+## Type hinting at every level
 
 ```if``` statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
 local (unreusable), unopinionated about what it imports from the outer scope and type unsafe.
