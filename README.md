@@ -158,29 +158,8 @@ usort($array, function () {
 });
 ```
 
-Notes:
+## Functions
 
+## Closures
 
-
-*A quick and fast rule for this is do not use a PHP operator inside an if statement condition.*
-
-TODO provide PHPCS lint for this: https://pear.php.net/manual/en/package.php.php-codesniffer.coding-standard-tutorial.php
-
-<details>
- <summary>Summary</summary>
-<p>
-'''js
-const x = 1
-''' (change to `)
-</p>
-</details>
-
-
-Focus on writing code that describes *why* it is performing its operations by using function names
-that describe the purpose of the code
-
-
-<figure>
-    <p><code>Life is good, said HTML5 to XHTML.</code></p>
-    <figcaption>In this code block, we see HTML5 speaking to XHTML.</figcaption>
-</figure>
+## Disclaimer
