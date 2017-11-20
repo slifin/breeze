@@ -37,7 +37,8 @@ variable names appear redundant, drop the if statement and variable names appear
 $escape_velocity = $thurst['mph'] > 25020;
 $escape_velocity && $thruster_speed = 0;
  ```
-
+------
+======
 ### Type hinting at every level
 
 if statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
