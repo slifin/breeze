@@ -29,16 +29,16 @@ of leaving things unnamed.
  <p align="right">☹️</p>
  
 ```diff
-- if ($object['km/s'] > 552) {
--   $thrusters = 5;
+- if ($thurst['mph'] > 25020) {
+-   $thurster_speed = 0;
 - } 
 ```
 
  <p align="right">🙂</p>
 
 ```php
-$is_faster_than_milkyway = $object['km/s'] > 552;
-$is_faster_than_milkyway && $thrusters = 5; 
+$escape_velocity = $thurst['mph'] > 25020;
+$escape_velocity && $thurster_speed = 0;
  ```
 
  
