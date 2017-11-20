@@ -25,7 +25,7 @@ Provide context to your ```if``` statements by including variable names whenever
 You might be skipping good opportunities for variable names by writing inline conditions inside your if statement
 
 <details>
- <a href="#test"><summary></summary></a>
+ <summary>Click here for details</summary>
 <p>
  
 ```php
