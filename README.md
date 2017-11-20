@@ -30,7 +30,7 @@ of leaving things unnamed.
  
 ```diff
 - if ($object['km/s'] > 552) {
--   myOperation();
+-   $thrusters = 5;
 - } 
 ```
 
@@ -38,7 +38,7 @@ of leaving things unnamed.
 
 ```php
 $is_faster_than_milkyway = $object['km/s'] > 552;
-$is_faster_than_milkyway && myOperation(); 
+$is_faster_than_milkyway && $thrusters = 5; 
  ```
 
  
