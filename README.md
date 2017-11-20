@@ -43,7 +43,7 @@ $escape_velocity && $thruster_speed = 0;
 if statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
 local (unreusable), unopinionated about what it imports from the outer scope and type unsafe.
 
-When we construct our programs in this way we encourage nesting within our scope, particularly when your code is being modified at a later date, it's tempting to modify the code at the nesting point rather than creating a new named operation.
+
 
 What could we do differently to nesting via the if statement?
 
@@ -71,9 +71,9 @@ $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
  ```
 
 
-
 ### Preventing future nesting in your code
 
+When we construct our programs in this way we encourage nesting within our scope, particularly when your code is being modified at a later date, it's tempting to modify the code at the nesting point rather than creating a new named operation.
 
 
 ### Use the positive side of the equation
