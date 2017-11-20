@@ -30,17 +30,12 @@ You might be skipping good opportunities for variable names by writing inline co
  
 ```php
 if ($object['km/s'] > 552) {
+  myOperation();
 }
-```
-```diff
-- if ($object['km/s'] > 552) {
-+ $is_faster_than_milkyway = $object['km/s'] > 552;
-+ if ($is_faster_than_milkyway) {
 ```
 ```php
 $is_faster_than_milkyway = $object['km/s'] > 552;
-if ($is_faster_than_milkyway) {
-}
+$is_faster_than_milkyway && myOperation();
  ```
 </p>
 </details>
