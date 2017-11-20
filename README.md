@@ -30,7 +30,7 @@ of leaving things unnamed.
  
 ```diff
 - if ($thurst['mph'] > 25020) {
--   $thurster_speed = 0;
+-   $thruster_speed = 0;
 - } 
 ```
 
@@ -38,7 +38,7 @@ of leaving things unnamed.
 
 ```php
 $escape_velocity = $thurst['mph'] > 25020;
-$escape_velocity && $thurster_speed = 0;
+$escape_velocity && $thruster_speed = 0;
  ```
 
  
