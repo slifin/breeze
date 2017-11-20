@@ -37,13 +37,14 @@ of leaving things unnamed.
 -   myOperation();
 - } 
 ```
-<p style="text-align: right;">☹️</p>
+
+<span style="text-align: right;">☹️</span>
 
 ```php
 $is_faster_than_milkyway = $object['km/s'] > 552;
 $is_faster_than_milkyway && myOperation(); 
  ```
- <p style="text-align: right;">🙂</p>
+ <span style="float:right; text-align: right;">🙂</span>
  
 </p>
 </details>
