@@ -23,7 +23,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 Provide context to your ```if``` statements by including variable names whenever possible
 
 You might be skipping good opportunities for variable names by refusing to use a variable name
-inside your ```if``` statement, by dropping the habit of using if statements you can drop the habit 
+inside your ```if``` statement, by dropping the habit of using ```if``` statements you can drop the habit 
 of leaving things unnamed.
 
  <p align="right">☹️</p>
