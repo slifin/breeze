@@ -7,9 +7,9 @@ Communication array for the [PHP](http://php.net/) language.
 ## Table of Contents
 * [About](#about)
 * [Conditionals](#conditionals)
-  * [Leaving explainations](#Context_by_variable_name)
-  * [Writing for comprehension](#Use_the_positive_side_of_the_equation)
 * [Arrays](#arrays)
+* [Functions](#functions)
+* [Closures](#closures)
 
 
 
