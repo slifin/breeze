@@ -25,6 +25,8 @@ Provide context to your ```if``` statements by including variable names whenever
 You might be skipping good opportunities for variable names by refusing to use a variable name
 inside your if statement. By dropping the habit of using if statements you can drop the habit 
 of leaving things unnamed.
+
+ <p align="right">☹️</p>
  
 ```diff
 - if ($object['km/s'] > 552) {
@@ -32,13 +34,13 @@ of leaving things unnamed.
 - } 
 ```
 
-<p align="right">☹️</p>
+ <p align="right">🙂</p>
 
 ```php
 $is_faster_than_milkyway = $object['km/s'] > 552;
 $is_faster_than_milkyway && myOperation(); 
  ```
- <p align="right">🙂</p>
+
  
 
 ### Type hinting at every level
