@@ -16,9 +16,9 @@ Communication array for the [PHP](http://php.net/) language.
 ## About
 Signal is a document to help writers increase context and meaning expressed through code.
 
-# Conditionals
+## Conditionals
 
-## Use every opportunity to describe what the code solves
+### Use every opportunity to describe what the code solves
 
 Provide context to your ```if``` statements by including variable names whenever possible
 
@@ -45,7 +45,7 @@ if ($is_faster_than_milkyway) {
 </p>
 </details>
 
-## Type hinting at every level
+### Type hinting at every level
 
 ```if``` statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
 local (unreusable), unopinionated about what it imports from the outer scope and type unsafe.
@@ -82,11 +82,11 @@ $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
 </details>
 
 
-## Prevent maintainers from nesting in your code
+### Prevent maintainers from nesting in your code
 
 
 
-## Use the positive side of the equation
+### Use the positive side of the equation
 
 
 First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly without additional comprehension steps.
@@ -112,7 +112,7 @@ count($meteors_on_collision_course) && launch_missiles();
 </p>
 </details>
 
-## Loop with functions
+## Arrays
 
 ### Filtering array children
 [array_filter](http://php.net/manual/en/function.array-filter.php)`();`
