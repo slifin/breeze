@@ -23,7 +23,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 You may be skipping good opportunities for variable names by using if statements, in a typical if statement 
 variable names appear redundant, drop the if statement and bring back meaningful variable names.
 
- <p align="right">☹️</p>
+ <p align="right">❌☹️</p>
  
 ```diff
 - if ($thurst['mph'] > 25020) {
@@ -31,7 +31,7 @@ variable names appear redundant, drop the if statement and bring back meaningful
 - } 
 ```
 
- <p align="right">🙂</p>
+ <p align="right">✔🙂</p>
 
 ```php
 $escape_velocity = $thurst['mph'] > 25020;
