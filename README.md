@@ -29,20 +29,22 @@ of leaving things unnamed.
 <details>
  <summary>Click here for details</summary>
 <p>
-☹️
+
+ 
  
 ```diff
 - if ($object['km/s'] > 552) {
 -   myOperation();
 - } 
 ```
+<p style="text-align: right;">☹️</p>
 
-🙂
 ```php
 $is_faster_than_milkyway = $object['km/s'] > 552;
 $is_faster_than_milkyway && myOperation(); 
  ```
-
+ <p style="text-align: right;">🙂</p>
+ 
 </p>
 </details>
 
