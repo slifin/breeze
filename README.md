@@ -36,11 +36,12 @@ if ($object['km/s'] > 552) {
 }
 ```
 ```diff
--if ($object['km/s'] > 552) {
--  myOperation();
--}
-+$is_faster_than_milkyway = $object['km/s'] > 552;
-+$is_faster_than_milkyway && myOperation();
+- if ($object['km/s'] > 552) {
+-   myOperation();
+- }
+
++ $is_faster_than_milkyway = $object['km/s'] > 552;
++ $is_faster_than_milkyway && myOperation();
 ```
 ```php
 $is_faster_than_milkyway = $object['km/s'] > 552;
