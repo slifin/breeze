@@ -87,7 +87,7 @@ $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
 </details>
 
 
-### Prevent maintainers from nesting in your code
+### Prevent nesting in your code
 
 
 
