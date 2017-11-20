@@ -18,11 +18,13 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 ## Conditionals
 
-### Use every opportunity to describe what the code solves
+### Keep describing what your code does
 
 Provide context to your ```if``` statements by including variable names whenever possible
 
-You might be skipping good opportunities for variable names by writing inline conditions inside your if statement
+You might be skipping good opportunities for variable names by refusing to use a variable name
+inside your if statement. By dropping the habit of using if statements you can drop the habit 
+of leaving things unnamed.
 
 <details>
  <summary>Click here for details</summary>
