@@ -37,9 +37,7 @@ variable names appear redundant, drop the if statement and variable names appear
 $escape_velocity = $thurst['mph'] > 25020;
 $escape_velocity && $thruster_speed = 0;
  ```
-------
 
-======
 
 ### Type hinting at every level
 
