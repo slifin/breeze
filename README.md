@@ -6,19 +6,17 @@ Communication array for the [PHP](http://php.net/) language.
 
 ## Table of Contents
 * [About](#about)
-* Semantics
+* [Conditionals](#conditionals)
   * [Leaving explainations](#Context_by_variable_name)
   * [Writing for comprehension](#Use_the_positive_side_of_the_equation)
-* Iteration
-  * [Filtering](#array_filter)
-  * [Changing array elements](#array_map)
-  * [Creating a new thing from an array](#array_reduce)
-  * [Iterating with side effects](#array_walk)
+* [Arrays](#arrays)
+
 
 
 ## About
 Signal is a document to help writers increase context and meaning expressed through code.
 
+# Conditionals
 
 ## Use every opportunity to describe what the code solves
 
