@@ -21,7 +21,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 ### Keep adding context to what your code does
 
 You may be skipping good opportunities for variable names by using if statements, in a typical if statement 
-variable names appear redundant, drop the if statement and bring back meaningful variable names.
+variable names appear redundant, drop the if statement and variable names appear natural again.
 
  <p align="right">❌☹️</p>
  
