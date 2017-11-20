@@ -18,7 +18,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 ## Conditionals
 
-### Keep describing what your code does
+### Keep adding context to what your code does
 
 Provide context to your if statements by including variable names whenever possible
 
