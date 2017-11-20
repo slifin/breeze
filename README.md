@@ -30,6 +30,7 @@ of leaving things unnamed.
  <summary>Click here for details</summary>
 <p>
 ☹️
+ 
 ```diff
 - if ($object['km/s'] > 552) {
 -   myOperation();
