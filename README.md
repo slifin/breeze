@@ -73,7 +73,7 @@ $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
  
 ### Organising Code
 
-The examples above are very convoluted compared to the original code & we haven't really increased the semantic value of our code beyond adding types and transparent inputs/outputs; how can we improve?
+The examples above is very convoluted compared to the original code & we haven't really increased the semantic value of our code beyond adding types and transparent inputs/outputs; how can we improve?
 
 ```diff
 - $is_faster_than_milkyway = $object['km/s'] > 552;
