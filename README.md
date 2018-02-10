@@ -70,6 +70,35 @@ $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
   return --$engine_speed;
 })($engine_speed);
  ```
+ 
+### Organising Code
+
+The examples above are very convoluted compared to the original code & we haven't really increased the semantic value of our code beyond adding types and transparent inputs/outputs; how can we improve?
+
+```diff
+- $is_faster_than_milkyway = $object['km/s'] > 552;
+- $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) int {
++ function decrease_engine_speed(int $engine_speed) : int {
+     return --$engine_speed;
+- })($engine_speed);
++ }
++ 
++ $is_faster_than_milkway = $object['km/s'] > 552;
++ $is_faster_than_milkway 
++   && $engine_speed = decrease_engine_speed($engine_speed);
+```
+
+```php
+function decrease_engine_speed(int $engine_speed) : int {
+  return --$engine_speed;
+}
+
+$is_faster_than_milkway = $object['km/s'] > 552;
+$is_faster_than_milkway 
+  && $engine_speed = decrease_engine_speed($engine_speed);
+
+```
+
 
 
 ### Preventing future nesting in your code
