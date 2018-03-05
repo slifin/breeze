@@ -60,6 +60,7 @@ In the previous section I talked about the idea of calling out to a function fro
   - Functions have names, and names have meaning which can signal intent.
   - Functions have doc types which have words which can signal intent.
   - Functions have return types which have types which can signal intent.
+  - Thing goes in, thing goes out, you can't explain that! (except when you can) 
   
 
 ### Free functions not class functions
