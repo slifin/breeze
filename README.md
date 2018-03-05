@@ -37,100 +37,23 @@ variable names appear redundant, drop the if statement and variable names appear
 $escape_velocity = $thurst['mph'] > 25020;
 $escape_velocity && $thruster_speed = 0;
  ```
+### What happened to my if statement?
 
+In the previous example we saw ```$thruster_speed = 0;``` happen inside a boolean shortcut, why do that instead of using an if statement? 
 
-### Type hinting at every level
+Well the problem is that if statement blocks evolve in such a way that encourages deep nesting, in a boolean shortcut at most you can do one operation, if that operation is complex you are forced to call out to a seperate function or rewrite the code.
 
-if statements are a shorthand to evaluate a conditional and run a block of code, said block of code must be unnamed, 
-local (unreusable), unopinionated about what it imports from the outer scope and type unsafe.
+We want other developers to make small composable functions so we are not going to make it easy to modify our code to add nesting code, they can either follow our function call and think about the semantics of our function or make their own.
 
+Stop nesting in my shit!
 
+### Why should I make a function? 
 
-What could we do differently to nesting via the if statement?
+In the previous section I talked about the idea of calling out to a function from a boolean short circuit here are some advantages to calling out to a function: 
 
+  - Variables are explicitly imported into the operation
+  - Parameters can be type hinted, my advise to use scalars and arrays whenever possible (TODO footnote on why)
 
- 
-```php
-if ($object['km/s'] > 552) {
- --$engine_speed;
-}
-```
-```diff
-- if ($object['km/s'] > 552) {
--  --$engine_speed;
-- }
-+ $is_faster_than_milkyway = $object['km/s'] > 552;
-+ $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
-+   return --$engine_speed;
-+ })($engine_speed);
-```
-```php
-$is_faster_than_milkyway = $object['km/s'] > 552;
-$is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) {
-  return --$engine_speed;
-})($engine_speed);
- ```
- 
-### Organising Code
-
-The examples above is very convoluted compared to the original code & we haven't really increased the semantic value of our code beyond adding types and transparent inputs/outputs; how can we improve?
-
-```diff
-- $is_faster_than_milkyway = $object['km/s'] > 552;
-- $is_faster_than_milkyway && $engine_speed = (function(int $engine_speed) int {
-+ function decrease_engine_speed(int $engine_speed) : int {
-     return --$engine_speed;
-- })($engine_speed);
-+ }
-+ 
-+ $is_faster_than_milkway = $object['km/s'] > 552;
-+ $is_faster_than_milkway 
-+   && $engine_speed = decrease_engine_speed($engine_speed);
-```
-
-```php
-function decrease_engine_speed(int $engine_speed) : int {
-  return --$engine_speed;
-}
-
-$is_faster_than_milkway = $object['km/s'] > 552;
-$is_faster_than_milkway 
-  && $engine_speed = decrease_engine_speed($engine_speed);
-
-```
-
-
-
-### Preventing future nesting in your code
-
-When we construct our programs in this way we encourage nesting within our scope, particularly when your code is being modified at a later date, it's tempting to modify the code at the nesting point rather than creating a new named operation.
-
-
-### Use the positive side of the equation
-
-
-First your brain has to parse the result of ```empty($meteors_on_collision_course)``` and then flip it with ```!```. Remove the two steps and talk about the event directly without additional comprehension steps.
-
-<details>
- <summary>Click here for examples</summary>
-<p>
-
-```php 
-if (!empty($meteors_on_collision_course)) {
-    launch_missiles()
-}
-```
-```diff 
-- if (!empty($meteors_on_collision_course)) {
--    launch_missiles()
--}
-+count($meteors_on_collision_course) && launch_missiles();
-```
-```php 
-count($meteors_on_collision_course) && launch_missiles();
-```
-</p>
-</details>
 
 ## Arrays
 
