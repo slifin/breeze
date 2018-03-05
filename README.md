@@ -66,7 +66,7 @@ In the previous section I talked about the idea of calling out to a function fro
 
 ### Free functions not class functions
 
-Functions are mathmatical 
+Methods are dirty shit compared to functions, methods are not free functions, they are bound to objects that you might not necessarily want to instantiate, they can be intercepted with what we actually call magic. They often encourage code that is not input/output testing small parts of the system becomes harder.
 
 ## Arrays
 
