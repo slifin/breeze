@@ -20,7 +20,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 
 ### Keep adding context to what your code does
 
-You may be skipping good opportunities for variable names by using if statements, in a typical if statement 
+You may be skipping good opportunities for variable names by using if statements, in a typical ```if``` statement 
 variable names are just extra work, why bother?! 
 
 It's likely if you're using if statements then you're not giving a name to every condition, if you 
