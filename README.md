@@ -21,7 +21,10 @@ Signal is a document to help writers increase context and meaning expressed thro
 ### Keep adding context to what your code does
 
 You may be skipping good opportunities for variable names by using if statements, in a typical if statement 
-variable names appear redundant, drop the if statement and variable names appear natural again.
+variable names are just extra work, why bother?! 
+
+It's likely if you're using if statements then you're not giving a name to every condition, if you 
+change your if statement usage you can change the habit of not naming your conditions:
 
  <p align="right">❌☹️</p>
  
@@ -53,7 +56,15 @@ In the previous section I talked about the idea of calling out to a function fro
 
   - Variables are explicitly imported into the operation
   - Parameters can be type hinted, my advise to use scalars and arrays whenever possible (TODO footnote on why)
+  - The symbols table is clean
+  - Functions have names, and names have meaning which can signal intent.
+  - Functions have doc types which have words which can signal intent.
+  - Functions have return types which have types which can signal intent.
+  
 
+### Free functions not class functions
+
+Functions are mathmatical 
 
 ## Arrays
 
