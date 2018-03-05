@@ -23,7 +23,7 @@ Signal is a document to help writers increase context and meaning expressed thro
 You may be skipping good opportunities for variable names by using if statements, in a typical ```if``` statement 
 variable names are just extra work, why bother?! 
 
-It's likely if you're using if statements then you're not giving a name to every condition, if you 
+It's likely if you're using if statements then you're not giving a name to many conditions, if you 
 change your if statement usage you can change the habit of not naming your conditions:
 
  <p align="right">❌☹️</p>
