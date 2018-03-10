@@ -10,7 +10,7 @@ If you've ever read some PHP code and could not work out the original **intent**
 
 ## Conditionals
 
-### Keep adding context to what your code does
+### Every opportunity to name and describe:
 
 You may be skipping good opportunities for variable names by using if statements, in a typical ```if``` statement 
 variable names are just extra work, why bother?! 
