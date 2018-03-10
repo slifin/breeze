@@ -49,8 +49,8 @@ Well the problem is that if statement blocks evolve in such a way that encourage
 
 We want other developers to make small composable functions so we are not going to make it easy to modify our code to add nesting code, they can either follow our function call and think about the semantics of our function or make their own.
 
-Only **you** can prevent rats nesting in code:
-
+Recognise this?: 
+Only **you** can prevent nesting in code
 <p align="right">❌☹️</p>
 
 ```diff
