@@ -41,7 +41,7 @@ change your if statement usage you can change the habit of not naming your condi
 $escape_velocity = $thurst['mph'] > 25020;
 $escape_velocity && $thruster_speed = 0;
  ```
-### What happened to my if statement?
+### Nesting, it's not a matter of if, it's a matter of when
 
 In the previous example we saw ```$thruster_speed = 0;``` happen inside a boolean shortcut, why do that instead of using an if statement? 
 
