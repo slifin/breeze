@@ -56,6 +56,8 @@ Only **you** can prevent rats nesting in code:
 -}
 ```
 
+This code was only possible because of blocks, if statements, foreach statements and other language constructs nested block sin this manner
+
 ### Variable names
 Variable names are the meat of your story the intent of your code, and yet how many times have you seen code like this?
 
