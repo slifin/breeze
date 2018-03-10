@@ -57,8 +57,13 @@ Only **you** can prevent rats nesting in code:
 ```
 
 ### Variable names
+Variable names are the meat of your story the intent of your code, and yet how many times have you seen code like this?
 
-
+```php
+foreach ($data as $item) {
+}
+```
+It's possible to write bad variable names in any situation but if you were forced to write this out as a function, you'd have to write some documentation on what $data|$item is, and as you do so it might occur to you that $data|$item isn't adding a whole lot of value to the story of your code.
 
 ### Why should I make a function? 
 
@@ -76,7 +81,7 @@ Here are some advantages to calling out to a function over writing your code dee
 
 ### Free functions not class functions
 
-Methods are dirty shit compared to functions, methods are not free functions, they are bound to objects that you might not necessarily want to instantiate, they can be intercepted with what we actually call magic. They often encourage code that is not input/output testing small parts of the system becomes harder.
+Methods are dirty shit compared to functions, methods are not free functions, they are bound to objects that you might not necessarily want to instantiate, they can be intercepted with what we actually call magic. They often encourage code that is not input/output testing small parts of the system becomes harder and moving code horitzontially in the object tree involes language assisted copy and paste.
 
 ## Arrays
 
