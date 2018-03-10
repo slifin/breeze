@@ -14,7 +14,8 @@
 
 
 ## About
-Signal is a document to help writers increase context and meaning expressed through code.
+Signal is a document to help writers increase context and meaning expressed through writing code.
+If you've ever read some PHP code and could not work out the original intent of the code this document is for you.
 
 ## Conditionals
 
