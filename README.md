@@ -134,6 +134,6 @@ usort($array, function () {
 });
 ```
 
-## Breaking object jails to re-use code horizontially
+## Breaking third party object jails
 
 ## Disclaimer
