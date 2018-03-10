@@ -64,9 +64,14 @@ Only **you** can prevent rats nesting in code:
 -  }
 -}
 ```
+
+### Variable names
+
+
+
 ### Why should I make a function? 
 
-In the previous section I talked about the idea of calling out to a function from a boolean short circuit here are some advantages to calling out to a function: 
+Here are some advantages to calling out to a function over writing your code deeper into a block never to be used again:
 
   - Variables are explicitly imported into the operation
   - Parameters can be type hinted
