@@ -57,7 +57,7 @@ Only **you** can prevent rats nesting in code:
 - foreach ($data as $k => $item) {
 -  foreach ($item as $current) {
 -    if (isset($current['object'])) {
--      if ($current) {
+-      if ($current['object']) {
 -        // 200 lines later we're still in here, send help.
 -      }
 -    }
