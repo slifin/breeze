@@ -15,7 +15,7 @@
 
 ## About
 Signal is a document to help writers increase context and meaning expressed through writing code.
-If you've ever read some PHP code and could not work out the original __intent__ of the code, then this document is for you.
+If you've ever read some PHP code and could not work out the original **intent** of the code, then this document is for you.
 
 ## Conditionals
 
