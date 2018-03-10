@@ -49,8 +49,21 @@ Well the problem is that if statement blocks evolve in such a way that encourage
 
 We want other developers to make small composable functions so we are not going to make it easy to modify our code to add nesting code, they can either follow our function call and think about the semantics of our function or make their own.
 
-Stop nesting in my shit!
+Only **you** can prevent rats nesting in code:
 
+<p align="right">❌☹️</p>
+
+```diff
+- foreach ($data as $k => $item) {
+-  foreach ($item as $current) {
+-    if (isset($current['object'])) {
+-      if ($current) {
+-        // 200 lines later we're still in here, send help.
+-      }
+-    }
+-  }
+-}
+```
 ### Why should I make a function? 
 
 In the previous section I talked about the idea of calling out to a function from a boolean short circuit here are some advantages to calling out to a function: 
