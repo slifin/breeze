@@ -85,6 +85,8 @@ Methods are dirty shit compared to functions, methods are not free functions, th
 
 ## Arrays
 
+If you want to stop using foreach loops for everything, here is a list of operations done functionally, you'll generally speaking have much more composable code if you do one thing at a time in each loop, it is possible to do many things by composing functions but that's not something I'd encourage at this early stage.
+
 ### Filtering array children
 [array_filter](http://php.net/manual/en/function.array-filter.php)`();`
 
