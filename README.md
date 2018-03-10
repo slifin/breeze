@@ -38,7 +38,7 @@ In the previous example we saw ```$thruster_speed = 0;``` happen inside a boolea
 
 Well the problem is that if statement blocks evolve in such a way that encourages deep nesting, in a boolean shortcut at most you can do one operation, if that operation is complex you are forced to call out to a seperate function or rewrite the code.
 
-We want other developers to make small composable functions so we are not going to make it easy to modify our code to add nesting code, they can either follow our function call and think about the semantics of our function or make their own.
+We want other developers to make small composable testable functions, so we are not going to make it easy to modify our code to add nesting code, they can either follow our function call and think about the semantics of our function or make their own.
 
 Only **you** can prevent rats nesting in code:
 
