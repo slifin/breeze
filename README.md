@@ -4,15 +4,6 @@
 <strong>Communication array for the [PHP](http://php.net/) language.</strong>
 
 
-## Table of Contents
-* [About](#about)
-* [Conditionals](#conditionals)
-* [Arrays](#arrays)
-* [Functions](#functions)
-* [Closures](#closures)
-
-
-
 ## About
 Signal is a document to help writers increase context and meaning expressed through writing code.
 If you've ever read some PHP code and could not work out the original **intent** of the code, then this document is for you.
